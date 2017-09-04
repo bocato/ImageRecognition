@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5F0370B1F5DD8570017983B /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E5F037091F5DD8570017983B /* Inceptionv3.mlmodel */; };
+		E5F0370C1F5DD8570017983B /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E5F0370A1F5DD8570017983B /* Resnet50.mlmodel */; };
+		E5F0370F1F5DDC2E0017983B /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0370E1F5DDC2E0017983B /* ResultsViewController.swift */; };
+		E5F037111F5DDC7A0017983B /* RecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F037101F5DDC7A0017983B /* RecognizerViewController.swift */; };
+		E5F037121F5DDCD70017983B /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F22ECE1F5DD774009A2AF7 /* ResultTableViewCell.swift */; };
+		E5F037131F5DDD020017983B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F22EC61F5DD6F6009A2AF7 /* ProgressBar.swift */; };
 		E5F22E961F5DD663009A2AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F22E951F5DD663009A2AF7 /* AppDelegate.swift */; };
-		E5F22E981F5DD663009A2AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F22E971F5DD663009A2AF7 /* ViewController.swift */; };
 		E5F22E9B1F5DD663009A2AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F22E991F5DD663009A2AF7 /* Main.storyboard */; };
 		E5F22E9D1F5DD663009A2AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F22E9C1F5DD663009A2AF7 /* Assets.xcassets */; };
 		E5F22EA01F5DD663009A2AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F22E9E1F5DD663009A2AF7 /* LaunchScreen.storyboard */; };
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5F037091F5DD8570017983B /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		E5F0370A1F5DD8570017983B /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		E5F0370E1F5DDC2E0017983B /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		E5F037101F5DDC7A0017983B /* RecognizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizerViewController.swift; sourceTree = "<group>"; };
 		E5F22E921F5DD663009A2AF7 /* ImageRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F22E951F5DD663009A2AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5F22E971F5DD663009A2AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5F22E9A1F5DD663009A2AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5F22E9C1F5DD663009A2AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F22E9F1F5DD663009A2AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		E5F22EB11F5DD663009A2AF7 /* ImageRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F22EB51F5DD663009A2AF7 /* ImageRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionUITests.swift; sourceTree = "<group>"; };
 		E5F22EB71F5DD663009A2AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F22EC61F5DD6F6009A2AF7 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		E5F22ECE1F5DD774009A2AF7 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5F0370D1F5DD8610017983B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22E9C1F5DD663009A2AF7 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		E5F22E891F5DD663009A2AF7 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +115,11 @@
 		E5F22E941F5DD663009A2AF7 /* ImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
-				E5F22E951F5DD663009A2AF7 /* AppDelegate.swift */,
-				E5F22E971F5DD663009A2AF7 /* ViewController.swift */,
-				E5F22E991F5DD663009A2AF7 /* Main.storyboard */,
-				E5F22E9C1F5DD663009A2AF7 /* Assets.xcassets */,
-				E5F22E9E1F5DD663009A2AF7 /* LaunchScreen.storyboard */,
-				E5F22EA11F5DD663009A2AF7 /* Info.plist */,
+				E5F22EC31F5DD67E009A2AF7 /* Application */,
+				E5F22EC51F5DD6E4009A2AF7 /* Commons */,
+				E5F22EC71F5DD6FE009A2AF7 /* View */,
+				E5F22ECF1F5DD791009A2AF7 /* Supporting Files */,
+				E5F0370D1F5DD8610017983B /* Assets */,
 			);
 			path = ImageRecognition;
 			sourceTree = "<group>";
@@ -123,6 +140,84 @@
 				E5F22EB71F5DD663009A2AF7 /* Info.plist */,
 			);
 			path = ImageRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		E5F22EC31F5DD67E009A2AF7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22E951F5DD663009A2AF7 /* AppDelegate.swift */,
+				E5F22EA11F5DD663009A2AF7 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E5F22EC51F5DD6E4009A2AF7 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22EC61F5DD6F6009A2AF7 /* ProgressBar.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		E5F22EC71F5DD6FE009A2AF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22EC91F5DD70B009A2AF7 /* LaunchScreen */,
+				E5F22EC81F5DD707009A2AF7 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5F22EC81F5DD707009A2AF7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22E991F5DD663009A2AF7 /* Main.storyboard */,
+				E5F22ECA1F5DD723009A2AF7 /* ViewControllers */,
+				E5F22ECB1F5DD75A009A2AF7 /* TableViewCells */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E5F22EC91F5DD70B009A2AF7 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22E9E1F5DD663009A2AF7 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		E5F22ECA1F5DD723009A2AF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0370E1F5DDC2E0017983B /* ResultsViewController.swift */,
+				E5F037101F5DDC7A0017983B /* RecognizerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5F22ECB1F5DD75A009A2AF7 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22ECE1F5DD774009A2AF7 /* ResultTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E5F22ECF1F5DD791009A2AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F22ED01F5DD7C0009A2AF7 /* MLModels */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F22ED01F5DD7C0009A2AF7 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				E5F037091F5DD8570017983B /* Inceptionv3.mlmodel */,
+				E5F0370A1F5DD8570017983B /* Resnet50.mlmodel */,
+			);
+			path = MLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +354,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F22E981F5DD663009A2AF7 /* ViewController.swift in Sources */,
+				E5F037111F5DDC7A0017983B /* RecognizerViewController.swift in Sources */,
 				E5F22E961F5DD663009A2AF7 /* AppDelegate.swift in Sources */,
+				E5F0370C1F5DD8570017983B /* Resnet50.mlmodel in Sources */,
+				E5F0370B1F5DD8570017983B /* Inceptionv3.mlmodel in Sources */,
+				E5F037121F5DDCD70017983B /* ResultTableViewCell.swift in Sources */,
+				E5F0370F1F5DDC2E0017983B /* ResultsViewController.swift in Sources */,
+				E5F037131F5DDD020017983B /* ProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +528,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKYJK8YBGT;
-				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ImageRecognition/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bocato.ImageRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,7 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKYJK8YBGT;
-				INFOPLIST_FILE = ImageRecognition/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ImageRecognition/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bocato.ImageRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
